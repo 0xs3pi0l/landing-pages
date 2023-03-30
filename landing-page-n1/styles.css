@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#div-1 {
+    background-image: url(images/kendal-hnysCJrPpkc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header {
+    padding: 20px;
+}
+
+nav li {
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 150px;
+    padding-top: 20px;
+}
+
+#logo {
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#menu {
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+#div-1 h1, h5 {
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+#div-1 h5 {
+    border: 1px solid #f2f2f2;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#div-1 h1 {
+    font-size: 80px;
+}
+
+#div-1 > section > p {
+    color: #b3b3b3;
+    text-align: center;
+}
+
+#div-1 button {
+    background-color: #28664A;
+    border: none;
+    color: #f2f2f2;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+#div-1 button:hover{
+    background-color: #398d67;
+    cursor: pointer;
+}
+
+#div-1 section {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
