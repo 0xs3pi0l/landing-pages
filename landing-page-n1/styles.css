@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #fafafa;
+}
+
 #div-1 {
     background-image: url(images/kendal-hnysCJrPpkc-unsplash.jpg);
     background-repeat: no-repeat;
@@ -80,10 +84,45 @@ nav ul {
 }
 
 #div-1 section {
-    height: 500px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
+}
+
+#div-2 > div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#div-2 h5{
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    font-weight: 600;
+}
+
+#div-2 h2{
+    font-size: 50px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div-2 > div p{
+    color: #b3b3b3;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-evenly;
 }
