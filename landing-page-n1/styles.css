@@ -365,7 +365,7 @@ nav ul {
 
 #div-5-1 {
     background-color: #FFFFFF;
-    height: 200px;
+    height: 300px;
 }
 
 #div-5-2 {
@@ -379,6 +379,9 @@ nav ul {
     gap: 20px;
     padding: 70px 100px 70px 100px;
     margin: 70px 100px 70px 100px;
+    width: 500;
+    position: absolute;
+    top: 3900px;
 }
 
 #div-5-2 > h2 {
@@ -404,8 +407,13 @@ nav ul {
     margin-top: 30px;
 }
 
+#div-5-2 > button:hover{
+    background-color: #282828;
+    cursor: pointer;
+}
+
 
 #div-5-3 {
     background-color: #181818;
-    height: 200px;
+    height: 300px;
 }
